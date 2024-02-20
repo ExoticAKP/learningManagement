@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.body{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(203, 203, 203, 1);
+
+}
+.meadows{
+    width: 95%;
+    height: 95%;
+    border-radius: 40px;
+    background-color: black;
+    background: url('../assets/images/nature.jpg') center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meadowPara{
+    font-family: Poppins;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 60%;
+    border-radius: 40px;
+}
+.meadowHeading{
+    font-size: 2.7rem;
+    margin: 20px;
+}
+.meadowBtn{
+    color: white;
+    border: none;
+    margin: 20px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(39, 86, 58, 1);
+}
